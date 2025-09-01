@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e47e9c162f20cd5faf46664029abfac7 {
+                #map_a5fadb2a991775f88d4482f610b6d913 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -50,6 +50,7 @@
             </script>
 
         
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
 </head>
 <body>
     
@@ -69,14 +70,14 @@
 <i style="color:black">●</i> Man-in-the-Middle
 </div>
     
-            <div class="folium-map" id="map_e47e9c162f20cd5faf46664029abfac7" ></div>
+            <div class="folium-map" id="map_a5fadb2a991775f88d4482f610b6d913" ></div>
         
 </body>
 <script>
     
     
-            var map_e47e9c162f20cd5faf46664029abfac7 = L.map(
-                "map_e47e9c162f20cd5faf46664029abfac7",
+            var map_a5fadb2a991775f88d4482f610b6d913 = L.map(
+                "map_a5fadb2a991775f88d4482f610b6d913",
                 {
                     center: [20.0, 0.0],
                     crs: L.CRS.EPSG3857,
@@ -93,7 +94,7 @@
 
         
     
-            var tile_layer_6da16250e017e83c075e504e82d2b0fb = L.tileLayer(
+            var tile_layer_fd4f90a1fcd79a7bef91e2178ce15dc7 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -110,237 +111,251 @@
             );
         
     
-            tile_layer_6da16250e017e83c075e504e82d2b0fb.addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            tile_layer_fd4f90a1fcd79a7bef91e2178ce15dc7.addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-            var circle_marker_36d66dc90a8e04c532b6235b4dd3d612 = L.circleMarker(
+            var circle_marker_0c333a467f7280bc9d60a69313f8b5a5 = L.circleMarker(
                 [-25.2744, 133.7751],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.35225102391663, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_f418c13f04d7ece1bea42772fdb7cd26 = L.popup({
+        var popup_d6be9bb6fefd9bb16e3e7dbd707e2700 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_5963433879f41dd99e5ad12cc22b6a18 = $(`<div id="html_5963433879f41dd99e5ad12cc22b6a18" style="width: 100.0%; height: 100.0%;"><b>País:</b> Australia<br><b>Usuarios afectados:</b> 150,011,830<br><b>Ataque más frecuente:</b> Malware</div>`)[0];
-                popup_f418c13f04d7ece1bea42772fdb7cd26.setContent(html_5963433879f41dd99e5ad12cc22b6a18);
+                var html_70d44ac6310879fe81d73d7881d66394 = $(`<div id="html_70d44ac6310879fe81d73d7881d66394" style="width: 100.0%; height: 100.0%;"><b>País:</b> Australia<br><b>Usuarios afectados:</b> 150,011,830<br><b>Ataque más frecuente:</b> Malware</div>`)[0];
+                popup_d6be9bb6fefd9bb16e3e7dbd707e2700.setContent(html_70d44ac6310879fe81d73d7881d66394);
             
         
 
-        circle_marker_36d66dc90a8e04c532b6235b4dd3d612.bindPopup(popup_f418c13f04d7ece1bea42772fdb7cd26)
+        circle_marker_0c333a467f7280bc9d60a69313f8b5a5.bindPopup(popup_d6be9bb6fefd9bb16e3e7dbd707e2700)
         ;
 
         
     
     
-            var circle_marker_afc1adf31a5f6b6395737e0cf22db438 = L.circleMarker(
+            var circle_marker_f63d447184bf6125d67f5356ebbc6475 = L.circleMarker(
                 [-14.235, -51.9253],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.45478080575329, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_52262f0f92ba765f482e557dda16ce9c = L.popup({
+        var popup_712a0c10346cb56ea2e6440f823c5dec = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_94a32362c5bf1261e5863ba025cf81fd = $(`<div id="html_94a32362c5bf1261e5863ba025cf81fd" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brazil<br><b>Usuarios afectados:</b> 168,806,980<br><b>Ataque más frecuente:</b> SQL Injection</div>`)[0];
-                popup_52262f0f92ba765f482e557dda16ce9c.setContent(html_94a32362c5bf1261e5863ba025cf81fd);
+                var html_4b14069aa0480c62ac4363b87f6c2328 = $(`<div id="html_4b14069aa0480c62ac4363b87f6c2328" style="width: 100.0%; height: 100.0%;"><b>País:</b> Brazil<br><b>Usuarios afectados:</b> 168,806,980<br><b>Ataque más frecuente:</b> SQL Injection</div>`)[0];
+                popup_712a0c10346cb56ea2e6440f823c5dec.setContent(html_4b14069aa0480c62ac4363b87f6c2328);
             
         
 
-        circle_marker_afc1adf31a5f6b6395737e0cf22db438.bindPopup(popup_52262f0f92ba765f482e557dda16ce9c)
+        circle_marker_f63d447184bf6125d67f5356ebbc6475.bindPopup(popup_712a0c10346cb56ea2e6440f823c5dec)
         ;
 
         
     
     
-            var circle_marker_c9191f1a2f58ea4001f7cb71e1304b20 = L.circleMarker(
+            var circle_marker_98f38c57dc8d0700fb67c232b5c12ebc = L.circleMarker(
                 [35.8617, 104.1954],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.289652231240236, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_640ff1a5c0398b61073d694c1ef66f92 = L.popup({
+        var popup_cbf2c8e2c9ca5f69aea890d9b17cf5e9 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_f8595e3808c87163acea2ef0ee92b4e8 = $(`<div id="html_f8595e3808c87163acea2ef0ee92b4e8" style="width: 100.0%; height: 100.0%;"><b>País:</b> China<br><b>Usuarios afectados:</b> 139,580,938<br><b>Ataque más frecuente:</b> DDoS</div>`)[0];
-                popup_640ff1a5c0398b61073d694c1ef66f92.setContent(html_f8595e3808c87163acea2ef0ee92b4e8);
+                var html_70214d645c7bb81f4499e54202e7a050 = $(`<div id="html_70214d645c7bb81f4499e54202e7a050" style="width: 100.0%; height: 100.0%;"><b>País:</b> China<br><b>Usuarios afectados:</b> 139,580,938<br><b>Ataque más frecuente:</b> DDoS</div>`)[0];
+                popup_cbf2c8e2c9ca5f69aea890d9b17cf5e9.setContent(html_70214d645c7bb81f4499e54202e7a050);
             
         
 
-        circle_marker_c9191f1a2f58ea4001f7cb71e1304b20.bindPopup(popup_640ff1a5c0398b61073d694c1ef66f92)
+        circle_marker_98f38c57dc8d0700fb67c232b5c12ebc.bindPopup(popup_cbf2c8e2c9ca5f69aea890d9b17cf5e9)
         ;
 
         
     
     
-            var circle_marker_81fa94ac6212ff6cc1e941c89d115b50 = L.circleMarker(
+            var circle_marker_1be1fb4c7fe66c9db0cbae0be43c60b5 = L.circleMarker(
                 [46.6034, 1.8883],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.38752410086908, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_354a3828b94fd8d22a3f27ac9a3d62d2 = L.popup({
+        var popup_7c196a1e01b8ac698fedaf5c14eed656 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_f2fc5036436a9386ee21f088dcf354b4 = $(`<div id="html_f2fc5036436a9386ee21f088dcf354b4" style="width: 100.0%; height: 100.0%;"><b>País:</b> France<br><b>Usuarios afectados:</b> 156,229,142<br><b>Ataque más frecuente:</b> Phishing</div>`)[0];
-                popup_354a3828b94fd8d22a3f27ac9a3d62d2.setContent(html_f2fc5036436a9386ee21f088dcf354b4);
+                var html_7fa25c20c3d812486f3a264346c651f5 = $(`<div id="html_7fa25c20c3d812486f3a264346c651f5" style="width: 100.0%; height: 100.0%;"><b>País:</b> France<br><b>Usuarios afectados:</b> 156,229,142<br><b>Ataque más frecuente:</b> Phishing</div>`)[0];
+                popup_7c196a1e01b8ac698fedaf5c14eed656.setContent(html_7fa25c20c3d812486f3a264346c651f5);
             
         
 
-        circle_marker_81fa94ac6212ff6cc1e941c89d115b50.bindPopup(popup_354a3828b94fd8d22a3f27ac9a3d62d2)
+        circle_marker_1be1fb4c7fe66c9db0cbae0be43c60b5.bindPopup(popup_7c196a1e01b8ac698fedaf5c14eed656)
         ;
 
         
     
     
-            var circle_marker_5268be4ac95ab1ccecaea7725b381530 = L.circleMarker(
+            var circle_marker_1ab63e1c9658ce1acbd755c889b7462f = L.circleMarker(
                 [51.1657, 10.4515],
                 {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.338616070609046, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_2b8c0b6ecef46b68b4237a949c2d1a5c = L.popup({
+        var popup_2333ba4acb329344e7b3d02ef070f1ef = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_50a302ff301693fc025b87053f2eec84 = $(`<div id="html_50a302ff301693fc025b87053f2eec84" style="width: 100.0%; height: 100.0%;"><b>País:</b> Germany<br><b>Usuarios afectados:</b> 147,675,358<br><b>Ataque más frecuente:</b> SQL Injection</div>`)[0];
-                popup_2b8c0b6ecef46b68b4237a949c2d1a5c.setContent(html_50a302ff301693fc025b87053f2eec84);
+                var html_abf2faffb9556d4d34e022c344bce010 = $(`<div id="html_abf2faffb9556d4d34e022c344bce010" style="width: 100.0%; height: 100.0%;"><b>País:</b> Germany<br><b>Usuarios afectados:</b> 147,675,358<br><b>Ataque más frecuente:</b> SQL Injection</div>`)[0];
+                popup_2333ba4acb329344e7b3d02ef070f1ef.setContent(html_abf2faffb9556d4d34e022c344bce010);
             
         
 
-        circle_marker_5268be4ac95ab1ccecaea7725b381530.bindPopup(popup_2b8c0b6ecef46b68b4237a949c2d1a5c)
+        circle_marker_1ab63e1c9658ce1acbd755c889b7462f.bindPopup(popup_2333ba4acb329344e7b3d02ef070f1ef)
         ;
 
         
     
     
-            var circle_marker_14cbcda12360f3c4c031fe0d53ce67da = L.circleMarker(
+            var circle_marker_ec14c3dad8d350f986fd71c7ac7e4dd5 = L.circleMarker(
                 [20.5937, 78.9629],
                 {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.347413403550853, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_dfc0f489cee64dbc0ed92c41e60ccd55 = L.popup({
+        var popup_29ce99adc2b96d017f87958b39496521 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_ae4bac942cfb03d5ca1cb90fe89a0a86 = $(`<div id="html_ae4bac942cfb03d5ca1cb90fe89a0a86" style="width: 100.0%; height: 100.0%;"><b>País:</b> India<br><b>Usuarios afectados:</b> 149,178,659<br><b>Ataque más frecuente:</b> Man-in-the-Middle</div>`)[0];
-                popup_dfc0f489cee64dbc0ed92c41e60ccd55.setContent(html_ae4bac942cfb03d5ca1cb90fe89a0a86);
+                var html_bf0e483b3866d50ccb5f9d8fc252cbdc = $(`<div id="html_bf0e483b3866d50ccb5f9d8fc252cbdc" style="width: 100.0%; height: 100.0%;"><b>País:</b> India<br><b>Usuarios afectados:</b> 149,178,659<br><b>Ataque más frecuente:</b> Man-in-the-Middle</div>`)[0];
+                popup_29ce99adc2b96d017f87958b39496521.setContent(html_bf0e483b3866d50ccb5f9d8fc252cbdc);
             
         
 
-        circle_marker_14cbcda12360f3c4c031fe0d53ce67da.bindPopup(popup_dfc0f489cee64dbc0ed92c41e60ccd55)
+        circle_marker_ec14c3dad8d350f986fd71c7ac7e4dd5.bindPopup(popup_29ce99adc2b96d017f87958b39496521)
         ;
 
         
     
     
-            var circle_marker_960e0abc3981573aa6e066c4cca7900f = L.circleMarker(
+            var circle_marker_62fd5520707cdda00c7283bd79e725a8 = L.circleMarker(
                 [36.2048, 138.2529],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.34469094828082, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_84afaa60910324875125ffeec84e66f6 = L.popup({
+        var popup_79f1345cb6daf8f80bd1f8e1f03bd5e4 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_13369dc599a8144cfc0df7dad3ca2b18 = $(`<div id="html_13369dc599a8144cfc0df7dad3ca2b18" style="width: 100.0%; height: 100.0%;"><b>País:</b> Japan<br><b>Usuarios afectados:</b> 148,711,814<br><b>Ataque más frecuente:</b> Malware</div>`)[0];
-                popup_84afaa60910324875125ffeec84e66f6.setContent(html_13369dc599a8144cfc0df7dad3ca2b18);
+                var html_15696065d943afaf4ca1c3024d4be10c = $(`<div id="html_15696065d943afaf4ca1c3024d4be10c" style="width: 100.0%; height: 100.0%;"><b>País:</b> Japan<br><b>Usuarios afectados:</b> 148,711,814<br><b>Ataque más frecuente:</b> Malware</div>`)[0];
+                popup_79f1345cb6daf8f80bd1f8e1f03bd5e4.setContent(html_15696065d943afaf4ca1c3024d4be10c);
             
         
 
-        circle_marker_960e0abc3981573aa6e066c4cca7900f.bindPopup(popup_84afaa60910324875125ffeec84e66f6)
+        circle_marker_62fd5520707cdda00c7283bd79e725a8.bindPopup(popup_79f1345cb6daf8f80bd1f8e1f03bd5e4)
         ;
 
         
     
     
-            var circle_marker_47f7c95c7a65657c2ca3a81aafe9bcf7 = L.circleMarker(
+            var circle_marker_133ca89e1feeb852e99da636e87c47c4 = L.circleMarker(
                 [61.524, 105.3188],
                 {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.36478271255313, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_0d3961ed430fdd12b617cfa49748af3e = L.popup({
+        var popup_f9f572b5e02fa3135cf1c5944d53bb73 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_c9a3138668a912e4a517b7e87079d1e8 = $(`<div id="html_c9a3138668a912e4a517b7e87079d1e8" style="width: 100.0%; height: 100.0%;"><b>País:</b> Russia<br><b>Usuarios afectados:</b> 152,191,835<br><b>Ataque más frecuente:</b> Ransomware</div>`)[0];
-                popup_0d3961ed430fdd12b617cfa49748af3e.setContent(html_c9a3138668a912e4a517b7e87079d1e8);
+                var html_86a45f898412e546c9498f26ce1822ee = $(`<div id="html_86a45f898412e546c9498f26ce1822ee" style="width: 100.0%; height: 100.0%;"><b>País:</b> Russia<br><b>Usuarios afectados:</b> 152,191,835<br><b>Ataque más frecuente:</b> Ransomware</div>`)[0];
+                popup_f9f572b5e02fa3135cf1c5944d53bb73.setContent(html_86a45f898412e546c9498f26ce1822ee);
             
         
 
-        circle_marker_47f7c95c7a65657c2ca3a81aafe9bcf7.bindPopup(popup_0d3961ed430fdd12b617cfa49748af3e)
+        circle_marker_133ca89e1feeb852e99da636e87c47c4.bindPopup(popup_f9f572b5e02fa3135cf1c5944d53bb73)
         ;
 
         
     
     
-            var circle_marker_e99691c1bc65759f8e535818548cfc89 = L.circleMarker(
+            var circle_marker_c6a6f7b2ea14ef9145e58190abb81158 = L.circleMarker(
                 [55.3781, -3.436],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.39436798677446, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_e536d6ff3719c47af3bde17ad3f797bb = L.popup({
+        var popup_aeb80f9e89d9088556b5be071cd86804 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_8d57ad1b373d1183a4b1734c694b3062 = $(`<div id="html_8d57ad1b373d1183a4b1734c694b3062" style="width: 100.0%; height: 100.0%;"><b>País:</b> UK<br><b>Usuarios afectados:</b> 157,464,983<br><b>Ataque más frecuente:</b> Phishing</div>`)[0];
-                popup_e536d6ff3719c47af3bde17ad3f797bb.setContent(html_8d57ad1b373d1183a4b1734c694b3062);
+                var html_3b82157089495c2d4f46146143af4732 = $(`<div id="html_3b82157089495c2d4f46146143af4732" style="width: 100.0%; height: 100.0%;"><b>País:</b> UK<br><b>Usuarios afectados:</b> 157,464,983<br><b>Ataque más frecuente:</b> Phishing</div>`)[0];
+                popup_aeb80f9e89d9088556b5be071cd86804.setContent(html_3b82157089495c2d4f46146143af4732);
             
         
 
-        circle_marker_e99691c1bc65759f8e535818548cfc89.bindPopup(popup_e536d6ff3719c47af3bde17ad3f797bb)
+        circle_marker_c6a6f7b2ea14ef9145e58190abb81158.bindPopup(popup_aeb80f9e89d9088556b5be071cd86804)
         ;
 
         
     
     
-            var circle_marker_f3d223f3becef3deb62a6456689dceed = L.circleMarker(
+            var circle_marker_8fa495e25cd803762818413b2e974b5d = L.circleMarker(
                 [37.0902, -95.7129],
                 {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.31793576722107, "stroke": true, "weight": 3}
-            ).addTo(map_e47e9c162f20cd5faf46664029abfac7);
+            ).addTo(map_a5fadb2a991775f88d4482f610b6d913);
         
     
-        var popup_24adb3623322e3796f3edc0e1e5145ba = L.popup({
+        var popup_1c04eb04b3abf1778fe39153b8609970 = L.popup({
   "maxWidth": 300,
 });
 
         
             
-                var html_8ca386c4bc36f241488a58f376725dc2 = $(`<div id="html_8ca386c4bc36f241488a58f376725dc2" style="width: 100.0%; height: 100.0%;"><b>País:</b> USA<br><b>Usuarios afectados:</b> 144,200,870<br><b>Ataque más frecuente:</b> DDoS</div>`)[0];
-                popup_24adb3623322e3796f3edc0e1e5145ba.setContent(html_8ca386c4bc36f241488a58f376725dc2);
+                var html_3ee2763ad30096c4f891eb5f0fdf1165 = $(`<div id="html_3ee2763ad30096c4f891eb5f0fdf1165" style="width: 100.0%; height: 100.0%;"><b>País:</b> USA<br><b>Usuarios afectados:</b> 144,200,870<br><b>Ataque más frecuente:</b> DDoS</div>`)[0];
+                popup_1c04eb04b3abf1778fe39153b8609970.setContent(html_3ee2763ad30096c4f891eb5f0fdf1165);
             
         
 
-        circle_marker_f3d223f3becef3deb62a6456689dceed.bindPopup(popup_24adb3623322e3796f3edc0e1e5145ba)
+        circle_marker_8fa495e25cd803762818413b2e974b5d.bindPopup(popup_1c04eb04b3abf1778fe39153b8609970)
         ;
 
         
     
+    
+            var heat_map_9ffbc38f09624bfc07c241a0d1dc6b7c = L.heatLayer(
+                [[-25.2744, 133.7751, 0.8886589286770014], [-14.235, -51.9253, 1.0], [35.8617, 104.1954, 0.8268670999267921], [46.6034, 1.8883, 0.9254898227549595], [51.1657, 10.4515, 0.8748178422479923], [20.5937, 78.9629, 0.8837232856129528], [36.2048, 138.2529, 0.8809577305393415], [61.524, 105.3188, 0.9015731162301464], [55.3781, -3.436, 0.9328108529635445], [37.0902, -95.7129, 0.8542352336378508]],
+                {
+  "minOpacity": 0.4,
+  "maxZoom": 18,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_9ffbc38f09624bfc07c241a0d1dc6b7c.addTo(map_a5fadb2a991775f88d4482f610b6d913);
+        
 </script>
 </html>
