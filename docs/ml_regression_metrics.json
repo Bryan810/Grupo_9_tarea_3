@@ -1,0 +1,8 @@
+{
+  "MAE_MUSD": 24.630219564909293,
+  "R2": -0.014982573065862814,
+  "best_params": {
+    "model__max_depth": 10,
+    "model__n_estimators": 200
+  }
+}
